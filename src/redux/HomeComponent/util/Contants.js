@@ -1,0 +1,21 @@
+import {getCorrectConstant} from '../../utils/ActionConstants';
+
+export const ACTION_CONSTANTS = {
+  GET_USER: 'GET_USER',
+  GET_USER_RESET_ERROR: 'GET_USER_RESET_ERROR',
+  GET_USER_RESET_SUCCESS: 'GET_USER_RESET_SUCCESS',
+  GET_SERVICE_HISTORY: 'GET_SERVICE_HISTORY',
+  GET_SERVICE_HISTORY_RESET_ERROR: 'GET_SERVICE_HISTORY_RESET_ERROR',
+  GET_SERVICE_HISTORY_RESET_SUCCESS: 'GET_SERVICE_HISTORY_RESET_SUCCESS',
+  CHANGE_BUILDING: 'CHANGE_BUILDING',
+};
+
+export const GET_USER = type => {
+  return getCorrectConstant(ACTION_CONSTANTS.GET_USER, type);
+};
+export const GET_SERVICE_HISTORY = type => {
+  return getCorrectConstant(ACTION_CONSTANTS.GET_SERVICE_HISTORY, type);
+};
+export const CHANGE_BUILDING = type => {
+  return getCorrectConstant(ACTION_CONSTANTS.CHANGE_BUILDING, type);
+};

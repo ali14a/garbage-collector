@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "467625010312",
+    "project_id": "citigen-customer-app",
+    "storage_bucket": "citigen-customer-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467625010312:android:8553bd122ada4c1e67ab3d",
+        "android_client_info": {
+          "package_name": "com.citygencustomerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467625010312-vb8gdevubi12vjodiac3rehuncs2ctuc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2HkgLB8WmA-18jGGQ8NY3CAbQxmfKNdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467625010312-vb8gdevubi12vjodiac3rehuncs2ctuc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
